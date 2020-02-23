@@ -31,8 +31,8 @@ import {
   Footer,
   FooterTab
 } from "native-base";
-import platform from "../../../node_modules/native-base/src/theme/variables/platform";
-import getTheme from "../../../node_modules/native-base/src/theme/components";
+import platform from "../../../native-base-theme/variables/platform";
+import getTheme from "../../../native-base-theme/components";
 
 import Dashboard from "../dashboard/index";
 import MQTTClient from "../../services/mqtt";
